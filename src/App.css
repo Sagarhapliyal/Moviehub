@@ -1,0 +1,67 @@
+/* App.css */
+
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2em;
+}
+.link{
+  text-decoration: none;
+  color: white;
+}
+.moviediv {
+  margin: 10px;
+  width: 300px;
+  border: 3px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  transition: transform 0.3s ease; /* Smooth transition for scale effect */
+}
+
+.moviediv:hover {
+  transform: scale(1.1);
+}
+
+.moviediv img {
+  height: 300px;
+  object-fit: cover; /* Ensures image covers the specified height without distortion */
+}
+
+.moviediv p {
+  text-align: center;
+  margin: 5px 0;
+}
+/* MovieInfopage.css */
+.movie-container {
+  color: white;
+  padding: 20px;
+}
+
+.movie-poster {
+  height: 400px;
+  width: 600px;
+  margin-left: 300px;
+}
+
+.recommendations-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.recommendation {
+  width: 200px;
+}
+
+.recommendation-poster {
+  width: 100%;
+}
